@@ -48,6 +48,5 @@ Protótipos das páginas principais, como login, cadastro, listagem de pets e so
 
 - https://www.petlove.com.br/
 
-## 5. 📚 Referências
 
 - https://www.petlove.com.br/
