@@ -63,7 +63,7 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 
 ## 6. Instruções para instalação e execução
 
-Clonar o repositório:
+Clonar:
 
 ```bash
 git clone https://github.com/pablo627/adoptpet
