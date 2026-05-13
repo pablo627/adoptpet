@@ -8,16 +8,16 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 
 ## 🧰 1. Tecnologias Utilizadas
 
-### Backend
-- Node.js (ou tecnologia equivalente do projeto)
-- API REST para gerenciamento de usuários e pets
-- Banco de dados relacional (MySQL)
+## Backend
 
-### Frontend
+- PHP
+- Banco de dados relacional (MySQL)
+- XAMPP
+
+## Front-end
 - HTML5
 - CSS3
 - JavaScript
-- Interface responsiva para diferentes dispositivos
 
 ---
 
