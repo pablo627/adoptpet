@@ -1,4 +1,4 @@
 # adoptpet
 
-- [Proposta do projeto](docs/01-proposta.md)
-- [Versão final do sistema](docs/02-versao-final.md)
+- [Proposta do projeto](01-proposal.md)
+- [Versão final do sistema](02-final-version.md)
