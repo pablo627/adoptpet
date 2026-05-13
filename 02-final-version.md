@@ -12,13 +12,16 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 
 - PHP
 - Banco de dados relacional (MySQL)
-- XAMPP
+
 
 ## Front-end
 - HTML5
 - CSS3
 - JavaScript
 
+## Outras Tecnologias
+- XAMPP
+  
 ---
 
 ## ⚙️ 2. Funcionalidades Implementadas
