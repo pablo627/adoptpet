@@ -11,7 +11,7 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 ### Backend
 - Node.js (ou tecnologia equivalente do projeto)
 - API REST para gerenciamento de usuários e pets
-- Banco de dados relacional (MySQL / PostgreSQL)
+- Banco de dados relacional (MySQL)
 
 ### Frontend
 - HTML5
