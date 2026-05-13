@@ -19,7 +19,7 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 - CSS3
 - JavaScript
 
-## Outras Tecnologias usadas
+## Outras
 - XAMPP
   
 ---
