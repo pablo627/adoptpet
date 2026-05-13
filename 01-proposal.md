@@ -28,8 +28,7 @@ O trabalho final tem como tema o desenvolvimento de um sistema web para gerencia
 ## 3. 🚫 Restrições
 
 - O sistema será desenvolvido apenas como aplicação web.
-- Será utilizado apenas um banco de dados definido no projeto.
-- O sistema dependerá das tecnologias definidas no escopo.
+- O sistema dependerá de um servidor local ou hospedagem compatível com PHP e MySQL.
 
 ---
 
