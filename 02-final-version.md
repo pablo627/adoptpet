@@ -75,9 +75,8 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 
 ## 1. Clone o repositório
 
-```bash
 git clone https://github.com/pablo627/adoptpet
-```bash
+
 ## 2. Mova a pasta do projeto para o diretório `htdocs` do XAMPP
 
 ```txt
