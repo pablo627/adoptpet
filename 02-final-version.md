@@ -42,7 +42,6 @@ npm start ou node server.js
 Abrir o frontend no navegador (ou rodar via servidor local).
 
 7. Referências
-
 www.petlove.com.br
 
 
