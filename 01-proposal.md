@@ -27,12 +27,9 @@ O trabalho final tem como tema o desenvolvimento de um sistema web para gerencia
 
 ## 3. 🚫 Restrições
 
-Neste trabalho não serão considerados:
-
-- Sistema de pagamento online  
-- Aplicativo mobile nativo  
-- Chat em tempo real  
-- Integração com clínicas veterinárias externas  
+- O sistema será desenvolvido apenas como aplicação web.
+- Será utilizado apenas um banco de dados definido no projeto.
+- O sistema dependerá das tecnologias definidas no escopo (ex: Node.js, etc).
 
 ---
 
