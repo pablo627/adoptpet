@@ -61,4 +61,16 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 
 ---
 
+## 6. Instruções para instalação e execução
+
+Clonar o repositório:
+
+```bash
 git clone https://github.com/pablo627/adoptpet
+cd adoptpet
+npm install
+npm start
+node server.js
+
+## 7. Referências
+https://www.petlove.com.br/
