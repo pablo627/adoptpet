@@ -34,11 +34,7 @@ O objetivo é tornar o processo de adoção mais organizado, acessível e eficie
 
 ## 🚧 3. Funcionalidades Previstas (Não Implementadas)
 
-- Chat em tempo real entre usuários  
-- Sistema de geolocalização de abrigos  
-- Aplicativo mobile nativo  
 - Sistema de notificações avançadas  
-- Integração com clínicas veterinárias  
 
 ---
 
