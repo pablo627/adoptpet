@@ -20,7 +20,7 @@ O trabalho final tem como tema o desenvolvimento de um sistema web para gerencia
 - Cadastro e gerenciamento de pets  
 - Visualização detalhada dos animais disponíveis  
 - Busca e filtragem de pets  
-- Solicitação de adoção online  
+- Solicitação de adoção 
 - Controle do status de adoção dos animais  
 
 ---
