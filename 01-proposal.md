@@ -29,7 +29,7 @@ O trabalho final tem como tema o desenvolvimento de um sistema web para gerencia
 
 - O sistema será desenvolvido apenas como aplicação web.
 - Será utilizado apenas um banco de dados definido no projeto.
-- O sistema dependerá das tecnologias definidas no escopo (ex: Node.js, etc).
+- O sistema dependerá das tecnologias definidas no escopo.
 
 ---
 
