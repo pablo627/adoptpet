@@ -71,6 +71,7 @@ cd adoptpet
 npm install
 npm start
 node server.js
+```
 
 ## 7. Referências
 https://www.petlove.com.br/
