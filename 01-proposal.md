@@ -16,8 +16,6 @@ O trabalho final tem como tema o desenvolvimento de um sistema web para gerencia
 
 ## 2. 📦 Escopo
 
-O sistema permitirá:
-
 - Cadastro e autenticação de usuários  
 - Cadastro e gerenciamento de pets  
 - Visualização detalhada dos animais disponíveis  
