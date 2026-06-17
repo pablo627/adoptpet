@@ -31,10 +31,15 @@ O trabalho final tem como tema o desenvolvimento de um sistema web para gerencia
 - O sistema dependerá de um servidor local ou hospedagem compatível com PHP e MySQL.
 
 ---
-
 ## 4. 🖼️ Protótipo
+### Tela Inicial
+![Tela Inicial](img/home.png)
 
-Protótipos das páginas principais, como login, cadastro, listagem de pets e solicitação de adoção, foram desenvolvidos durante a modelagem do sistema.
+### Pesquisa de Pets
+![Pesquisa de Pets](img/pesquisarpet.png)
+
+### Cadastro de Cuidador
+![Cadastro de Cuidador](img/cadastrocuidador.png)
 
 ---
 
