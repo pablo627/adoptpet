@@ -273,14 +273,23 @@ date_default_timezone_set('America/Sao_Paulo');
                         <label for="datanasc">Data de Nascimento:</label>
                         <input type="date" class="form-control" name="datanasc" required>
                     </div>
-                    <div class="form-group">
-                        <label for="abrigo">Abrigo:</label>
-                        <select class="form-control" name="abrigo">
-                            <!-- Você deve garantir que esses valores correspondam aos CODabrigo existentes na tabela abrigo -->
-                            <option value="1">PetCenter</option>
-                            <option value="2">PetDeTodos</option>
-                        </select>
-                    </div>
+            <div class="form-group">
+                <label for="abrigo">Abrigo:</label>
+
+<select class="form-control" name="abrigo" required>
+<?php
+include("conexao.php");
+
+$sql = "SELECT CODabrigo, nome FROM abrigo";
+$resultado = mysqli_query($conn, $sql);
+
+while ($linha = mysqli_fetch_assoc($resultado)) {
+    echo "<option value='".$linha['CODabrigo']."'>".$linha['nome']."</option>";
+}
+?>
+</select>
+                </select>
+            </div>
                     <div class="form-group">
                         <label for="raca">Raça:</label>
                         <input type="text" class="form-control" name="raca" required>

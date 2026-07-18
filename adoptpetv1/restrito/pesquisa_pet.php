@@ -446,11 +446,19 @@ date_default_timezone_set('America/Sao_Paulo');
                       <option value="Adotado">Adotado</option>
                   </select>
                   
-                  <select class="form-control mr-sm-2" name="abrigo">
-                      <option value="">Abrigo</option>
-                      <option value="1">PetCenter</option>
-                      <option value="2">PetDeTodos</option>
-                  </select>
+<select class="form-control mr-sm-2" name="abrigo">
+    <option value="">Todos</option>
+
+    <?php
+    $sqlAbrigos = "SELECT CODabrigo, nome FROM abrigo ORDER BY nome";
+    $resultadoAbrigos = mysqli_query($conn, $sqlAbrigos);
+
+    while ($row = mysqli_fetch_assoc($resultadoAbrigos)) {
+        $selected = ($abrigo == $row['CODabrigo']) ? "selected" : "";
+        echo "<option value='{$row['CODabrigo']}' $selected>{$row['nome']}</option>";
+    }
+    ?>
+</select>
 
                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
                 </form>
@@ -485,14 +493,15 @@ date_default_timezone_set('America/Sao_Paulo');
                             $statuspet = $linha['statuspet'];
                             $CODabrig = $linha['CODabrig'];
 
-                            // Definir o nome do abrigo
+                            $abrigo_nome = $linha['abrigo_nome'];
+                            /*
                             if ($CODabrig == 1) {
                                 $abrigo_nome = "PetCenter";
                             } elseif ($CODabrig == 2) {
                                 $abrigo_nome = "PetDeTodos";
                             } else {
                                 $abrigo_nome = "Abrigo Desconhecido";
-                            }
+                            }*/
 
                             // Definir o botão de adoção baseado no status do pet
                             if ($statuspet === 'Adotado' or $statuspet === 'adotado') {

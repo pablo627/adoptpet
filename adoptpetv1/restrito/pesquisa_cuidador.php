@@ -425,11 +425,19 @@ $dados = mysqli_query($conn, $sql);
                       <!-- Campo de pesquisa para o telefone -->
                       <input class="form-control mr-sm-2" type="search" placeholder="Telefone" aria-label="Search" name='telefone'>
 
-                      <select class="form-control mr-sm-2" name="abrigo">
-                      <option value="">Abrigo</option>
-                      <option value="1">PetCenter</option>
-                      <option value="2">PetDeTodos</option>
-                      </select>
+<select name="abrigo" class="form-control">
+    <option value="">Abrigo</option>
+
+    <?php
+    $sqlAbrigo = "SELECT CODabrigo, nome FROM abrigo ORDER BY nome";
+    $resultadoAbrigo = mysqli_query($conn, $sqlAbrigo);
+
+    while ($abr = mysqli_fetch_assoc($resultadoAbrigo)) {
+        $selected = ($abrigo == $abr['CODabrigo']) ? "selected" : "";
+        echo "<option value='".$abr['CODabrigo']."' $selected>".$abr['nome']."</option>";
+    }
+    ?>
+</select>
 
                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
                     </form>

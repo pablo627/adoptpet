@@ -27,10 +27,9 @@
                 $nome = $_POST['nome'];
                 $sexo = $_POST['sexo'];
                 $datanasc = $_POST['datanasc'];
-                $raca = $_POST['raca'];
+                $raca = $_POST['raca']; 
                 $especie = $_POST['especie'];
-                $CODabrig = $_POST['abrigo'];  // Nome correto da coluna para a chave estrangeira
-
+                $CODabrig = $_POST['abrigo'];
                 // Preparar a consulta SQL
                 $sql = "INSERT INTO pet (CODpet, nome, sexo, datanasc, raca, especie, CODabrig, statuspet) 
                         VALUES ('$CODpet','$nome','$sexo','$datanasc','$raca','$especie','$CODabrig', 'Disponivel')";
